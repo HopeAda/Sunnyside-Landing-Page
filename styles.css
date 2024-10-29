@@ -353,7 +353,7 @@ h4{
         padding: 0;
         
     }
-    .menu:hover{
+    .menu a:hover{
         text-transform: uppercase;
     }
     
