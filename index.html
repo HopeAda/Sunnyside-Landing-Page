@@ -14,17 +14,21 @@
 <body>
   <div class="header">
     <span class="navbar">
-      <img src="images/logo.svg" alt="">
-      <img src="images/icon-hamburger.svg" alt="" class="menu-icon">
-      <nav class="menu">
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
-      </nav>
+      <div class="nav">
+        <img src="images/logo.svg" alt="">
+        <img src="images/icon-hamburger.svg" alt="" class="menu-icon" id="menu-icon">
+      </div>
+      <div   id="menu-container" class="show">
+        <nav class="menu">
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Projects</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
     </span>
-    <h1>We are creatives</h1>
-    <img src="images/icon-arrow-down.svg" alt="" class="arrow">
+    <h1 id="heading" class="title">We are creatives</h1>
+    <img src="images/icon-arrow-down.svg" alt="" class="arrow title" id="arrow">
   </div>
 
   <span class="image-group">
@@ -97,18 +101,29 @@
     <img src="images/mobile/image-gallery-cone.jpg" alt="">
     <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="">
   </div>
-  <nav>
-    <a href="">About</a>
-    <a href="">Services</a>
-    <a href="">Projects</a>
-  </nav>
-  <span class="socials">
 
-  </span>
+  <div class="footer">
+    <img src="images/footer.svg" alt="">
+    <nav>
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">Projects</a>
+    </nav>
+
+    <span class="socials">
+      <img src="images/icon-facebook.svg" alt="">
+      <img src="images/icon-instagram.svg" alt="">
+      <img src="images/icon-twitter.svg" alt="" class="twitter">
+      <img src="images/icon-pinterest.svg" alt="">
+    </span>
+  </div>
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Hope Ada</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
