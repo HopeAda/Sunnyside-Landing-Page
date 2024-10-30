@@ -34,7 +34,7 @@ if (window.innerWidth<= 726){
     coneImage.src = "images/desktop/image-gallery-cone.jpg";
     milkImage.src = "images/desktop/image-gallery-milkbottles.jpg";
     orangeImage.src = "images/desktop/image-gallery-orange.jpg";
-    sugarImage.src = "images/desktop/image-gallery-sugar-cubes.jpg";
+    sugarImage.src = "images/desktop/image-gallery-sugarcubes.jpg";
     
 }
 
