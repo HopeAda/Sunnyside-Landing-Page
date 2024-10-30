@@ -156,8 +156,13 @@ h1{
     color: var(--Darkgrayishblue);
     margin: 1.5rem 0;
 }
-
+.link-underline{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .link-underline a{
+    z-index: 1;
     text-transform: uppercase;
     font-family: Fraunces, sans-serif;
     color: black;
@@ -324,6 +329,27 @@ h4{
 }
 
 
+/* Underline the Learn More */
+
+.underline{
+    opacity: .8;
+    z-index: 0;
+    position: relative;
+    top: -6px;
+    align-self: center;
+    width: 130px;
+    height: 7px;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: var(--Softred);
+}
+.yellow{
+    background-color: var(--Yellow);
+}
+
+
 
 /* Tablet 768px and Laptop 1024px */
 @media screen and (min-width: 768px) {
@@ -355,6 +381,7 @@ h4{
     }
     .menu a:hover{
         text-transform: uppercase;
+        color: var(--White);
     }
     
     .menu a{
@@ -402,9 +429,13 @@ h4{
         justify-content: center;
     }
 
-    .link-underline{
-width: 100%;    }
-
+    .link-underline a{
+        margin-left: 5px;
+    }
+    .underline{
+        align-self:flex-start;
+        height: 8px;
+    }
     h2{
         font-size: 32px;
     }
